@@ -15,13 +15,14 @@ Skills utilized:
 - plotting in seaborn and matplotlib
 - scikit-learn 
 
-Outcome: Clusters with 85% accuracy 
+Summary: Clusters are not informative, meaning another kind of ML model will be better.
+Outcome: Models with the highest accuracy were logistic regression (98.8%) and Random Forest (99.1%). 
 
-Main takeaway: Even if individual variables have almost 0 correlation with the output variable, if we have a **high number** of these input features, we can combine them to create a very strong model. 
+
+Main takeaway from the project: Even if individual variables have almost 0 correlation with the output variable, if we have a **high number** of these input features, we can combine them to create a very strong model. 
 
 Next steps: 
 - KNN clustering
-- Logistic regression
 - train on entire dataset (1 million rows) 
 
 -------------------------------------------------------------------------------------------------------------
